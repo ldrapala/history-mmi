@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<GridPane fx:controller="byt.money.historymmi.internal.controller.HistoryMmiController" 
+          xmlns:fx="http://javafx.com/fxml" alignment="TOP_LEFT" hgap="2" vgap="2">
+    <padding>
+        <Insets top="2" right="2" bottom="2" left="2"/>
+    </padding>
+    
+    <TableView 
+        fx:id="tableView"
+        GridPane.columnIndex="0" GridPane.rowIndex="0"> 
+        <columns>
+          <TableColumn text="First Name">
+          </TableColumn>
+          <TableColumn text="Last Name">
+          </TableColumn>
+          <TableColumn text="Email Address">
+          </TableColumn>
+     </columns>
+    </TableView>
+    
+    
+</GridPane>
